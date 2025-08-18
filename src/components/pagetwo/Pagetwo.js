@@ -8,7 +8,7 @@ function Pagetwo() {
       <h1>I</h1>
       
       <div className='name'>
-        <a href="/">
+        <a href="/bday-site">
         <img src="https://i.imgur.com/N9J230M.jpeg"></img></a>
         <audio controls audio1 type="audio/mpeg">
            <source src={audio1} type="audio/mpeg"/> 
