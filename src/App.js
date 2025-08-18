@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import audio1 from './myOrdinaryLife.mp3';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Homepage from './components/homepage/Homepage ';
-import Pagetwo from './components/pagetwo/Pagetwo ';
+import Homepage from './components/homepage/Homepage';
+import Pagetwo from './components/pagetwo/Pagetwo';
+import Navbar  from './components/Navbar';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/pagetwo" element={<Pagetwo />} />
       </Routes>
-   
+    <Navbar></Navbar>
     </BrowserRouter>
   );
 }
