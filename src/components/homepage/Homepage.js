@@ -2,6 +2,7 @@ import logo from '../../logo.svg';
 import '../../App.css';
 import audio1 from '../../myOrdinaryLife.mp3';
 import Wave from 'react-wavify'
+import { Link } from 'react-router-dom';
 
 function Homepage() {
   return (
@@ -9,9 +10,9 @@ function Homepage() {
       <h1>HAPPY BIRTHDAY</h1>
       
       <div className='name'>
-        <a href="/bday-site/pagetwo">
+       <Link to="/bday-site">
         <img src="https://i.imgur.com/N9J230M.jpeg"  ></img>
-        </a>
+        </Link>
         <audio controls audio1 type="audio/mpeg">
            <source src={audio1} type="audio/mpeg"/> 
         </audio>
