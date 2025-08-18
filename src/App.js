@@ -1,21 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 import audio1 from './myOrdinaryLife.mp3';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Homepage from './components/homepage/Homepage';
+import Pagetwo from './components/pagetwo/Pagetwo';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>H</h1>
-      
-      <div className='name'>
-        <img src="https://i.imgur.com/N9J230M.jpeg"></img>
-        <audio controls audio1 type="audio/mpeg">
-           <source src={audio1} type="audio/mpeg"/> 
-        </audio>
-      </div>
-      
-      <p>Helo</p>
-    </div>
+    
+     <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/pagetwo" element={<Pagetwo />} />
+      </Routes>
+   
+    </BrowserRouter>
   );
 }
 
