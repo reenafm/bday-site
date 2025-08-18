@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/reenafm/bday-site/static/css/main.6bf4aa65.css",
+    "main.js": "/reenafm/bday-site/static/js/main.61132641.js",
+    "static/js/453.3f98633e.chunk.js": "/reenafm/bday-site/static/js/453.3f98633e.chunk.js",
+    "static/media/myOrdinaryLife.mp3": "/reenafm/bday-site/static/media/myOrdinaryLife.a3b0174f38d79970d707.mp3",
+    "static/media/logo.svg": "/reenafm/bday-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/reenafm/bday-site/index.html",
+    "main.6bf4aa65.css.map": "/reenafm/bday-site/static/css/main.6bf4aa65.css.map",
+    "main.61132641.js.map": "/reenafm/bday-site/static/js/main.61132641.js.map",
+    "453.3f98633e.chunk.js.map": "/reenafm/bday-site/static/js/453.3f98633e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bf4aa65.css",
+    "static/js/main.61132641.js"
+  ]
+}
