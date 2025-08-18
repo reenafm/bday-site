@@ -11,8 +11,8 @@ function App() {
     
      <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/pagetwo" element={<Pagetwo />} />
+        <Route path="/bday-site" element={<Homepage />} />
+        <Route path="/bday-site/pagetwo" element={<Pagetwo />} />
       </Routes>
     <Navbar></Navbar>
     </BrowserRouter>
