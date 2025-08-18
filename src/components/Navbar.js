@@ -5,8 +5,10 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav>
-      <Link to="/bday-site">Home</Link>
-      <Link to="/bday-site/pagetwo">About</Link>
+      <Link to="/bday-site">
+      <img src="https://i.imgur.com/N9J230M.jpeg"  ></img>
+      </Link>
+      <Link to="/bday-site/pagetwo"><img src="https://i.imgur.com/N9J230M.jpeg"  ></img></Link>
     </nav>
   );
 }

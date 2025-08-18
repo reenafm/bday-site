@@ -10,7 +10,7 @@ function Homepage() {
       <h1>HAPPY BIRTHDAY</h1>
       
       <div className='name'>
-       <Link to="/bday-site">
+       <Link to="pagetwo">
         <img src="https://i.imgur.com/N9J230M.jpeg"  ></img>
         </Link>
         <audio controls audio1 type="audio/mpeg">
