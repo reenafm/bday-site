@@ -4,7 +4,7 @@ import './Navbar.css';
 
 function Navbar() {
   return (
-    <nav>
+    <nav style= {{ width: '0px' , height: '0px' }}>
       <Link to="/bday-site">
       <img src="https://i.imgur.com/N9J230M.jpeg"  ></img>
       </Link>
