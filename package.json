@@ -2,7 +2,7 @@
   "name": "developsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/reenafm/bday-site/",
+  "homepage": "https://reenafm.github.io/bday-site/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.7.0",
