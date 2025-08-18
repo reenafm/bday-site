@@ -16,7 +16,7 @@ function App() {
         <Route path="/bday-site" element={<Homepage />} />
         <Route path="/bday-site/pagetwo" element={<Pagetwo />} />
       </Routes>
-      <Navbar></Navbar>
+      
     </BrowserRouter>
   );
 }
