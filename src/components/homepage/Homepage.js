@@ -7,13 +7,13 @@ import { Link } from 'react-router-dom';
 function Homepage() {
   return (
     <div className="Homepage">
-      <h1>HAPPY BIRTHDAY</h1>
+      <h1>HAPPY 17TH BIRTHDAY MARIAN!!!!</h1>
       
       <div className='name'>
        <Link to="pagetwo">
         <img src="https://i.imgur.com/N9J230M.jpeg"  ></img>
         </Link>
-        <audio controls audio1 type="audio/mpeg">
+        <audio autoplay loop audio1 type="audio/mpeg">
            <source src={audio1} type="audio/mpeg"/> 
         </audio>
       </div>
@@ -24,7 +24,7 @@ function Homepage() {
         style={{ display: 'flex' , position: 'absolute' , bottom: '0px'}}
         options={{
           height: 20,
-          amplitude: 20,
+          amplitude: 30,
           speed: 0.15,
           points: 3
         }}
