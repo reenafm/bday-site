@@ -13,11 +13,14 @@ function Homepage() {
        <Link to="pagetwo">
         <img src="https://i.imgur.com/N9J230M.jpeg"  ></img>
         </Link>
-        <audio autoplay loop audio1 type="audio/mpeg">
-           <source src={audio1} type="audio/mpeg"/> 
-        </audio>
       </div>
+
+      <audio autoplay loop audio1 type="audio/mpeg">
+           <source src={audio1} type="audio/mpeg"/> 
+      </audio>
       
+      <i class="las la-volume-up"></i>
+
       <p>Helo</p>
       <Wave fill='#ff6c6cff'
         paused={false}
